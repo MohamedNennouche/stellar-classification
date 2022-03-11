@@ -31,13 +31,13 @@ qui ont été enlevé. Et ensuite une étape de normalisation a été faite sur 
 3) **Classification :** Durant cette étape on utilise plusieurs algorithmes de classification nous permettant de résoudre le problème donné
 ## Performances atteintes 
 ### Sans normalisation des données
-|   Algorithme choisi    |   Précision en test|  F1 score (%) |
+|   Algorithme choisi    |   Précision (%)|  F1 score (%) |
 |---    |:-:    |:-:    |
 |   KNN     |  70.94  |   70.94   |
 |   Random Forrest   |   97.41   |    97.38   |
 |   Extremely randomized tree   |   96.49  |  96.45   |
 ### Avec normalisation des données
-|   Algorithme choisi    |   Précision en test|  F1 score (%) |
+|   Algorithme choisi    |   Précision (%)|  F1 score (%) |
 |---    |:-:    |:-:    |
 |   KNN     |  90.25  |   90.11   |
 |   Random Forrest   |   97.38   |    97.35   |
