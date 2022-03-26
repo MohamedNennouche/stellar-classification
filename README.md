@@ -42,20 +42,3 @@ which were removed. And then a normalization step was done on the data to put th
 |   KNN     |  90.25  |   88.63   |
 |   Random Forest   |   97.41   |    96.95   |
 |   Extremely randomized tree   |   96.51  |  95.93   |
-### With data resampling
-Noticing that classifiers tend to misclassify elements between Quasars and Galaxies, a resampling was attempted from a distribution as follows: 
-- GALAXY : 59445
-- STAR : 21594
-- QSO : 18961
-
-to : 
-- GALAXY : 50000
-- STAR : 21594
-- QSO : 28406
-
-And it has improved the classification results: 
-
-| Algorithms (%) | Accuracy (%) | F1 score (%) |
-|---    |:-:    |:-:    |
-|   Random Forest   |   98.95   |    99   |
-|   Extremely randomized tree   |   98.19  |  98.24   |
